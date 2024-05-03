@@ -1,0 +1,283 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    height: 54px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbarlogo{
+    height: 50px;
+    width: 100px;
+    margin-top: 10px;
+}
+.logo{
+    background-image: url("ama.png");
+    background-size: contain;
+    height: 40px;
+    width: 100%;
+    border: 2px solid transparent;
+}
+.logo:hover{
+    border: 2px solid white;
+}
+.navaddi{
+    border: 2px solid transparent;
+    margin-left: 10px;
+    
+}
+/*box 2 style*/
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-second{
+    font-size: 1rem;
+    margin-left: 4px;
+} 
+.add-icon{
+    display: flex;
+}
+/* navi addi ni hover ni thakhai*/
+.navaddi:hover{
+    border-color: white;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    background-color: rgb(105, 128, 105);
+    border-radius: 5px;
+    margin-left: 20px;
+    border: none;
+}
+.search-icon{
+    background-color: #febd68;
+    width: 45px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.select-search{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius:4px;
+}
+.search-input{
+    width: 100%;
+    font-size: large;
+    text-align: right;
+}
+.nav-search:hover{
+   border: 2px solid orange;
+}
+/*lang box done*/
+.flaglog{
+    height: 20px;
+    width: 20px;
+    background-image: url("indflag.jpeg");
+    background-size: contain;
+    border-radius: 50%;
+}
+#langselector{
+    color: white;
+    background-color: #0f1111;
+    border: none;
+}
+.lang{
+    display: flex;
+}
+/*next da sign in ni thakhai khamgwn*/
+.span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+}
+.acc:hover{
+    border: 2px solid white;
+}
+.acc{
+    display: inline-block;
+}
+
+/*.fa-sort-down {
+    vertical-align: middle;
+}
+the upper part is for the logo caret-down*/
+/* and from here is for the cart */
+.rnD{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.r{
+    font-size: small;
+    margin-left: px;
+}
+/*cart icon khw flex use khamna horizontal fix khamna later justify content dw end of the axis ao fix khamnai jadwng*/
+.cart-icon{
+    display: flex;
+    font-size: 1.8rem;
+    justify-content: end;
+    align-items: end;
+}
+.cart{
+    font-size: 1.3rem;
+}
+.cart-icon:hover{
+    border: 2px solid white;
+    padding: 4px;
+}
+/*to play with cart*/
+.fa-cart-shopping{
+    font-size: 35px;
+}
+/* header ends here*/
+/*day 2 */
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops p {
+    display: inline;
+    margin-left: 10px;
+}
+
+.panel-ops {
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals {
+    font-size: 0.85rem;
+    margin-right: 0;
+}
+
+.panel-all {
+    margin-left: 0; /* Ensure left margin is set to none */
+}
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops p {
+    display: inline;
+    margin-left: 10px;
+}
+
+.panel-ops {
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals {
+    font-size: 0.85rem;
+    margin-right: 0;
+}
+
+.panel-all {
+    margin-left: 0; /* Ensure left margin is set to none */
+}
+/*hero section*/
+.hero-sec{
+    background-image: url("b4.jpg");
+    height: 600px;
+    background-size: cover;
+}
+.hero-msg {
+    position: absolute;
+    top: 580px;
+    left: 200px;
+    right: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+}
+.hero-msg:hover{
+    border: 2px solid blue;
+    border-radius: 15px;
+}
+#atag{
+    text-decoration: none;
+}
+/*contenet section for the site*/
+.box{
+    height: 300px;
+    width: 400px;
+    border: 2px solid rgb(225, 211, 211);
+    margin-bottom: 20px;
+    background-color: rgb(253, 250, 250);
+    background-size: contain;
+    padding: 20px 0px 15px ;
+    border-radius: 4px;
+}
+.contents{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box:hover{
+    transition: all;
+    transition-duration: 1s;
+    transform: scale(1.04);  
+}
+.image{
+    height: 200px;
+    background-repeat: no-repeat;
+}
+.box-content{
+    margin-left: 10px;
+}
+
+.contents p {
+    margin-top: 40px;
+}
+.contents p:hover{
+    text-decoration: underline;
+    color: red;
+}
+.contents p a{
+    color: red;
+}
+footer{
+    height: 400px;
+    background-color: #222f3d;
+}
+.second-footer{
+    height: 80px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer-logo{
+    height: 40px;
+    width: 70px;
+    background-image: url("ama.png");
+    background-size: contain;
+}
